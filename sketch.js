@@ -78,7 +78,6 @@ function draw() {
   
   
   
-  drawGrid();
-}
+
 
 }
