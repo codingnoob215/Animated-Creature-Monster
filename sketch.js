@@ -80,17 +80,5 @@ function draw() {
   
   drawGrid();
 }
-function drawGrid() {
-  textSize(10);
-  stroke(200);
-  fill(120);
-  for (let x = -width; x < width; x += 40) {
-    line(x, -height, x, height);
-    text(x, x + 1, 12);
-  }
-  for (let y = -height; y < height; y += 40) {
-    line(-width, y, width, y);
-    fill(255, 100, 0);
-    text(y, 1, y + 12);
-  }
+
 }
