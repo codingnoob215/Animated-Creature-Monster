@@ -14,6 +14,7 @@ function draw() {
   
   // neck
   push();
+  fill(190, 116, 4);
   translate(180,370);
   
   rotate(radians(rotation));
